@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#valentineImage, h1, button {
+    margin-bottom: 20px;
+}
+
+#valentineImage {
+    max-width: 100%;
+    width: 25rem;
+    height: auto;
+}
+
+h1 {
+    color: #ff1493;
+}
+#restartButton {
+    background-color: aqua;
+
+}
+
+#yesButton {
+    background-color: #00ff00;
+}
+
+#noButton {
+    background-color: #ff0000;
+}
+
+#buttonContainer {
+    display: flex;
+    align-items: center;
+}
+
+#yesButton, #noButton, #restartButton {
+    margin: 0 20px;
+    padding: 0.5rem ;
+    border: 1px solid black;
+    color: white;
+}
